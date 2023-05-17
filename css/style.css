@@ -7,11 +7,31 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* color */
+.dark-orange{
+  color: #f6871d;
+}
+.cl-green{
+  color: #128f4c;
+  /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+}
 
+/* text border */
+.text-border{
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+/* padding */
+.p-30{
+ padding: 30px;
+}
 /* lato font */
 .lato-font{
   font-family:var(--lato);
   font-weight: 900;
+}
+.lato-hevy{
+  font-family:var(--lato);
+  font-weight: 700;
 }
 
 .lg-header{
@@ -52,11 +72,84 @@
     /* margin-bottom: 10px; */
     /* color: #ff5555; */
   }
-  .lg-header{
-    /* background: url(../images/Banner2.png) no-repeat ; */
+  /* .top-menu-lg{
+    background: url(../images/Banner2.png) no-repeat  center;
     height: 992px;
     width: 100%;
-  }
+  } */
   .lg-header img{
     width: 100%;
+  }
+  .light-ylw{
+    color: #faaf40;
+  }
+  .top-menu-lg h1{
+    padding-top: 5px;
+    margin: 0;
+    line-height: 0;
+    margin-top: 50px;
+    color: #f6871d;
+    font-size: 200px;
+    text-align: center;
+
+}
+
+.bottom-menu{
+
+}
+/* bottom btn */
+.main-btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 10px;
+  background: #8a1717;
+  border-radius: 70px;
+}
+.icon-img{
+  width: 25px;
+}
+.btn-text {
+  font-size: 18px;
+  color: #000000;
+  line-height: 0;
+}
+  @font-face {
+    font-family: "FireFont";
+    src: url("../fireFont/Firestor.ttf") format("truetype");
+  }
+  #contact .contat-banner{
+   height: 552px;
+  object-fit: cover;
+  }
+
+ .title{
+  font-size: 120px;
+  /* font-weight: 600; */
+  color: #faaf40;
+  font-family: var(--lato);
+  /* line-height: 0; */
+  text-align: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+  .para{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: var(--lato);
+    text-align: center;
+  }
+  .copy{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    font-family: var(--lato);
+    text-align: center;
+  }
+
+  .right-part-contact{
+    padding-top: 30px;
+  }
+  .text-container{
+    top: 50%;
+    transform: translateY(-50%);
   }
