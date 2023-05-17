@@ -1,12 +1,18 @@
-var menuItems = document.querySelectorAll("#menu li a");
+// Get all nav links
+const navLinks = document.querySelectorAll('.nav-link');
 
-function setActiveMenuItem() {
-  menuItems.forEach(function (item) {
-    item.classList.remove("active");
+// Function to handle click event on nav links
+function handleClick(event) {
+  // Remove active class from all nav links
+  navLinks.forEach(link => {
+    link.classList.remove('active');
   });
-  this.classList.add("active");
+
+  // Add active class to the clicked nav link
+  event.target.classList.add('active');
 }
 
-menuItems.forEach(function (item) {
-  item.addEventListener("click", setActiveMenuItem);
+// Attach click event listener to each nav link
+navLinks.forEach(link => {
+  link.addEventListener('click', handleClick);
 });
