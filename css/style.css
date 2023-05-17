@@ -50,6 +50,12 @@ a{
   top: 50%;
   transform: translateY(-50%);
 }
+/* width */
+.w-30{
+  width: 30px;
+}
+/* height */
+
 .lg-header{
   position: relative;
 }
@@ -133,6 +139,7 @@ a{
     font-family: "FireFont";
     src: url("../fireFont/Firestor.ttf") format("truetype");
   }
+  /* contact start */
   #contact .contat-banner{
    height: 552px;
   object-fit: cover;
@@ -169,6 +176,12 @@ a{
     top: 50%;
     transform: translateY(-50%);
   }
+.contact-to-home-btn{
+  left: 50%;
+  bottom: 10px;
+
+}
+  /* contact end */
   .paper{
     width: 700px;
     /* margin: 0 auto; */
