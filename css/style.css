@@ -276,6 +276,21 @@ a{
     }
 
     .position-left{
-      
+
     }
    /* tokio chart end */
+
+   /* about us */
+   .about-banner-img{
+    height: 600px;
+   }
+
+.about-btn{
+  width: 150px;
+  /* background: url(../images/paper-btn.png) no-repeat ; */
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* .btn-text-link{
+  l
+} */
