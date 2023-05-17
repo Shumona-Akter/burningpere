@@ -45,7 +45,11 @@ a{
   font-family:var(--lato);
   font-weight: 700;
 }
-
+/* positon */
+.position-vertical-center{
+  top: 50%;
+  transform: translateY(-50%);
+}
 .lg-header{
   position: relative;
 }
@@ -214,7 +218,7 @@ a{
   }
 
   .position-center{
-    width: 100%;
+    width: 250px;
     left: 50%;
     top: 50%;
     left: 50%;
@@ -243,4 +247,35 @@ a{
     .fs-12{
       font-size: 12px;
     }
-   
+
+    /* how to bye end */
+
+    /* tokio chart start */
+    .circle{
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+
+    }
+    .bg-yellow{
+      background: #d6df22;
+    }
+    .bg-green{
+      background: #00a651;
+    }
+    .bg-red{
+      background: #ff0013;
+    }
+    .circle-chart{
+      /* width: 600px; */
+      margin-left: 100px;
+    }
+    .chart-btn{
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .position-left{
+      
+    }
+   /* tokio chart end */
