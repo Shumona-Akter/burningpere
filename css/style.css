@@ -7,6 +7,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 /* color */
 .dark-orange{
   color: #f6871d;
@@ -14,6 +17,9 @@
 .cl-green{
   color: #128f4c;
   /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+}
+.cl-black{
+  color: #000000;
 }
 
 /* text border */
@@ -23,6 +29,12 @@
 /* padding */
 .p-30{
  padding: 30px;
+}
+
+/* lign height */
+.line-height{
+  line-height: 0px;
+  margin-top: 15px;
 }
 /* lato font */
 .lato-font{
@@ -153,3 +165,61 @@
     top: 50%;
     transform: translateY(-50%);
   }
+  .paper{
+    width: 700px;
+    /* margin: 0 auto; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .paper-btn{
+    width: 150px;
+    /* background: url(../images/paper-btn.png) no-repeat ; */
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .paper-text{
+    width: 150px;
+    /* background: url(../images/paper-btn.png) no-repeat ; */
+    bottom: 0;
+    color: #000000;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  /* road map start*/
+  .position{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .road-icon-size{
+    width: 15px;
+  }
+
+  .road-map-sub-title  {
+    
+    background: linear-gradient(to bottom, #fefdf3, #f1db3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    line-height: 35px;
+    /* line-height: 0; */
+    /* text-shadow: 0 0px 1px black; */
+  }
+
+  .position-center{
+    width: 250px;
+    /* left: 50%; */
+    top: 50%;
+    left: 50%;
+    /* background: #000; */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+    /* road map  end*/
