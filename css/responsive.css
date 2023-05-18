@@ -4,6 +4,9 @@
     .header-banner-h-900 {
         height: 900px;
     }
+    .main-banner-h-900{
+        height: 900px;
+      }
     .road-map-height{
         height: 600px;
       }
@@ -22,6 +25,9 @@
     .header-banner-h-900 {
         height: 800px;
     }
+    .main-banner-h-900{
+        height: 800px;
+      }
     .road-map-height{
         height: 650px;
       }
@@ -54,6 +60,9 @@
     .header-banner-h-900 {
         height: 800px;
     }
+    .main-banner-h-900{
+        height: 600px;
+      }
     .height-800{
         height: 800px;
     }
@@ -162,8 +171,11 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header-banner-h-900 {
-        height: 800px;
+        height: 700px;
     }
+    .main-banner-h-900{
+        height: 500px;
+      }
     .height-900 {
         height: 800px;
     }
@@ -275,6 +287,7 @@
 } 
 
 @media (max-width: 575px) {
+    
     .tokenomics-height{
         height: 700px;
       }
@@ -359,7 +372,14 @@
     margin: 0 auto;
 }
 .header-banner-h-900{
-    height: 800px;
+    height: 750px;
+  }
+  /* .about-btn {
+    top: 35px;
+  } */
+
+.main-banner-h-900{
+    height: 500px;
   }
   .nav-w-700 {
     width: 100%;

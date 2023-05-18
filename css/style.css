@@ -130,6 +130,9 @@ ul ,li {
 .header-banner-h-900{
   height: 700px;
 }
+.main-banner-h-900{
+  height: 700px;
+}
 .header-btn{
   bottom: 20px;
   left: 50%;
