@@ -16,15 +16,30 @@
 </head>
 <body>
     <header class="lg-header position-relative">
+        <div class="btn-flex absolute d-lg-none">
+            <button class="sprig ">
+                <div class="bar"></div>
+            </button>
+        </div>
         <!-- lg device menu -->
         <img src="./images/Banner2.png" alt="Banner2" class="header-banner-h-900">
-        <div class="container position-absolute header-btn top-menu-lg">
+        <div class="container position-absolute z-index top-menu-lg">
             <div class="">
                 <div class="logo">
                     <img src="./images/logo.png" alt="">
                 </div>
-                <nav class="nav-w-700">
-                    <ul class="d-flex justify-content-between">
+                <nav class="nav-w-700 d-none d-lg-block">
+                    <ul class="d-lg-flex justify-content-between">
+                      <li><a id="home-link" class="nav-link lato-font fs-5 text-white active" href="#">Home</a></li>
+                      <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#about-us">About us</a></li>
+                      <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#tokenomics">Tokenomics</a></li>
+                      <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#bye">How to bye</a></li>
+                      <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#road_map">Road Map</a></li>
+                      <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#contact">Contact Us</a></li>
+                    </ul>
+                  </nav>
+                <nav class="mobile-nav d-block d-lg-none">
+                    <ul class="d-lg-flex justify-content-between">
                       <li><a id="home-link" class="nav-link lato-font fs-5 text-white active" href="#">Home</a></li>
                       <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#about-us">About us</a></li>
                       <li><a id="about-link" class="nav-link lato-font fs-5 text-white" href="#tokenomics">Tokenomics</a></li>
@@ -41,13 +56,37 @@
                
             </div>
             <div class=" container header-btn position-absolute  d-flex justify-content-between flex-wrap flex-lg-nowrap">
-                <div><img src="./images/btn-telegram.png" class="img-fluid" alt=""></div>
-                <div><img src="./images/btn-twitter.png" class="img-fluid" alt=""></div>
-                <div><img src="./images/pink-btn.png" class="img-fluid" alt=""></div>
-                <div><img src="./images/coin-btn.png" class="img-fluid" alt=""></div>
-                <div><img src="./images/coin-btn-2.png" class="img-fluid" alt=""></div>
-                <div><img src="./images/bsc-btn.png" class="img-fluid" alt=""></div>
-                <div><img src="./images/bsc-next-btn.png" class="img-fluid" alt=""></div>
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="./images/btn-telegram.png" class="img-fluid" alt=""></a>
+                    </div>
+                <div class="nav-btn">
+                    <a href="#"><img src="./images/btn-pancake.png" class="img-fluid" alt=""></a>
+                </div>
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="./images/btn-twitter.png" class="img-fluid" alt="">
+                    </a></div>
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="./images/pink-btn.png" class="img-fluid" alt="">
+                    </a></div>
+                <div class="nav-btn-1">
+                    <a href="#">
+                        <img src="./images/coin-btn.png" class="img-fluid" alt="">
+                    </a></div>
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="./images/coin-btn-2.png" class="img-fluid" alt="">
+                    </a></div>
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="./images/bsc-btn.png" class="img-fluid" alt="">
+                    </a></div>
+                <div class="nav-btn">
+                    <a href="#">
+                        <img src="./images/bsc-next-btn.png" class="img-fluid" alt="">
+                    </a></div>
             </div>
             <!-- <h1 style="font-family: 'FireFont', sans-serif;"><span class="light-ylw">BURNING</span>PEPE</h1> -->
         </div>
