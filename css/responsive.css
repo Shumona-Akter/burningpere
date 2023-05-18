@@ -1,6 +1,9 @@
 @media (min-width: 1400px){} 
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+    .header-banner-h-900 {
+        height: 900px;
+    }
     .paper{
         width: 700px;
         /* margin: 0 auto; */
@@ -13,6 +16,9 @@
 } 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .header-banner-h-900 {
+        height: 800px;
+    }
     .paper {
         width: 600px;
         /* margin: 0 auto; */
@@ -36,6 +42,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .header-banner-h-900 {
+        height: 600px;
+    }
     .height-800{
         height: 800px;
     }
@@ -133,6 +142,9 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .header-banner-h-900 {
+        height: 700px;
+    }
     .height-800{
         height: 800px;
     }
@@ -199,36 +211,43 @@
         margin: 0 auto;
     }
     .mobile-nav{
-        position: absolute;
-        width: 100%;
-        background-color: #faaf40;
-        left: 150%;
+        background: #faaf40;
         top: 40px;
-        /* transform: translateX(-50%); */
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
         transition: all linear 0.4s;
         opacity: 0;
         visibility: hidden;
         opacity: 0;
+
         z-index: 99;
         }
         .mobile-nav.is-active{
+            opacity: 1;
+            visibility: visible;
+        }
+        .mobile-nav{
+            top:40px;
+            background: #faaf40;
             position: absolute;
             width: 100%;
-            background-color: #faaf40;
-            left: 50%;
-            top: 40px;
-            transform: translateX(-50%);
             transition: all linear 0.4s;
             opacity: 0;
             visibility: hidden;
             opacity: 0;
-            z-index: 9999;
-            opacity: 1;
-            visibility: visible;
-        }
+            z-index: 99;
+            }
+            .mobile-nav.is-active{
+                opacity: 1;
+                visibility: visible;
+            }
 } 
 
 @media (max-width: 575px) {
+    
     .height-800{
         height: 800px;
     }
@@ -322,33 +341,21 @@
     background: #000;
 } */
 .mobile-nav{
-    
+    top:40px;
+    background: #faaf40;
     position: absolute;
     width: 100%;
-    background-color: #faaf40;
     left: 50%;
-    top: 40px;
-    display: none;
     transform: translateX(-50%);
     transition: all linear 0.4s;
     opacity: 0;
     visibility: hidden;
     opacity: 0;
-    z-index: 99;
+    z-index: 9999;
     }
     .mobile-nav.is-active{
-        position: absolute;
-        width: 100%;
-        background-color: #faaf40;
-        left: 50%;
-        top: 40px;
-        transform: translateX(-50%);
-        transition: all linear 0.4s;
-        opacity: 0;
-        visibility: hidden;
-        opacity: 0;
-        z-index: 99;
         opacity: 1;
         visibility: visible;
+        z-index: 9999;
     }
 } 
