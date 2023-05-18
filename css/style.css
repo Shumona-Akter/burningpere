@@ -63,7 +63,30 @@ ul ,li {
 .w-200{
   width: 200px;
 }
+.w-300{
+  width: 300px;
+}
+/* top */
+.bye-btn{
+  display: inline-block;
+  margin: 0 auto;
+  bottom: -100px;
+  /* top: 35px; */
+  left: 50%;
+  transform: translateX(-50%);
+}
 /* height */
+/* height */
+.road-map-height{
+  height: 750px;
+}
+.bye-height{
+  height: 800px;
+}
+
+.tokenomics-height{
+  height: 800px;
+}
 
 .lg-header{
   position: relative;

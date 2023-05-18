@@ -4,6 +4,9 @@
     .header-banner-h-900 {
         height: 900px;
     }
+    .road-map-height{
+        height: 600px;
+      }
     .paper{
         width: 700px;
         /* margin: 0 auto; */
@@ -19,6 +22,12 @@
     .header-banner-h-900 {
         height: 800px;
     }
+    .road-map-height{
+        height: 650px;
+      }
+      .bye-height{
+        height: 1700px;
+      }
     .paper {
         width: 600px;
         /* margin: 0 auto; */
@@ -57,8 +66,8 @@
       .height-1300{
         height: 1300px;
       }
-      .height-1500{
-        height: 900px;
+      .bye-height{
+        height: 1050px;
       }
       /* banner */
       .top-menu-lg h1 {
@@ -145,6 +154,10 @@
           .nav-link {
             padding: 20px 0  ;
           }
+          .tokenomics-height{
+            height: 900px;
+          }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -157,14 +170,17 @@
     .height-900{
         height: 1000px;
       }
+      .road-map-height{
+        height: 800px;
+      }
       .height-about-900{
         height: 700px;
       }
       .height-1300{
         height: 1300px;
       }
-      .height-1500{
-        height: 1500px;
+      .bye-height{
+        height: 1700px;
       }
       /* banner */
       .top-menu-lg h1 {
@@ -275,8 +291,8 @@
       .height-1300{
         height: 1300px;
       }
-      .height-1500{
-        height: 1500px;
+      .bye-height{
+        height: 1700px;
       }
       /* banner */
       .top-menu-lg h1 {
