@@ -234,7 +234,10 @@
     }
     .height-900{
         height: 900px;
-      }
+    }
+    .contact-height-1100{
+        height: 1000px;
+    }
     .height-about-900{
         height: 900px;
       }
@@ -319,12 +322,14 @@
     background: #000;
 } */
 .mobile-nav{
+    
     position: absolute;
     width: 100%;
     background-color: #faaf40;
-    left: 150%;
+    left: 50%;
     top: 40px;
-    /* transform: translateX(-50%); */
+    display: none;
+    transform: translateX(-50%);
     transition: all linear 0.4s;
     opacity: 0;
     visibility: hidden;
