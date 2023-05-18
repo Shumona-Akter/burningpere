@@ -48,9 +48,9 @@
     .height-800{
         height: 800px;
     }
-    .height-900{
-        height: 600px;
-      }
+    .height-900 {
+        height: 900px;
+    }
       .height-about-900{
         height: 800px;
       }
@@ -139,13 +139,19 @@
             opacity: 1;
             visibility: visible;
         }
+        .nav-link.active {
+            background-position: left top;
+          }
+          .nav-link {
+            padding: 20px 0  ;
+          }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header-banner-h-900 {
         height: 700px;
     }
-    .height-800{
+    .height-900 {
         height: 800px;
     }
     .height-900{
@@ -244,6 +250,12 @@
                 opacity: 1;
                 visibility: visible;
             }
+            .nav-link.active {
+                background-position: left top;
+              }
+              .nav-link {
+                padding: 20px 0  ;
+              }
 } 
 
 @media (max-width: 575px) {
@@ -358,4 +370,10 @@
         visibility: visible;
         z-index: 9999;
     }
+    .nav-link.active {
+        background-position: left top;
+      }
+      .nav-link {
+        padding: 20px 0  ;
+      }
 } 
