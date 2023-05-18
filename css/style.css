@@ -83,7 +83,9 @@ ul ,li {
 .bye-height{
   height: 800px;
 }
-
+.height-about-900{
+  height: 700px;
+}
 .tokenomics-height{
   height: 800px;
 }
@@ -126,7 +128,7 @@ ul ,li {
 
 /* header banner */
 .header-banner-h-900{
-  height: 1100px;
+  height: 700px;
 }
 .header-btn{
   bottom: 20px;

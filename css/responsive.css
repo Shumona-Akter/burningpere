@@ -52,7 +52,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header-banner-h-900 {
-        height: 600px;
+        height: 800px;
     }
     .height-800{
         height: 800px;
@@ -61,7 +61,7 @@
         height: 900px;
     }
       .height-about-900{
-        height: 800px;
+        height: 900px;
       }
       .height-1300{
         height: 1300px;
@@ -162,7 +162,7 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header-banner-h-900 {
-        height: 700px;
+        height: 800px;
     }
     .height-900 {
         height: 800px;
@@ -275,7 +275,9 @@
 } 
 
 @media (max-width: 575px) {
-    
+    .tokenomics-height{
+        height: 700px;
+      }
     .height-800{
         height: 800px;
     }
@@ -357,7 +359,7 @@
     margin: 0 auto;
 }
 .header-banner-h-900{
-    height: 500px;
+    height: 800px;
   }
   .nav-w-700 {
     width: 100%;
